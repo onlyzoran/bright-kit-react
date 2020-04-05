@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
 import './App.css';
+import Hero01 from './components/Heroes/Hero01';
 
 const App = () => {
   return (

@@ -12,6 +12,10 @@ body,
   align-items: center;
 }
 
+.main-page-inner {
+  text-align: center;
+}
+
 .main-page-title {
   font-family: Bebas Neue;
   font-style: normal;
