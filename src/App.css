@@ -16,6 +16,10 @@ body,
   text-align: center;
 }
 
+.main-page-img {
+  max-width: 100%;
+}
+
 .main-page-title {
   font-family: Bebas Neue;
   font-style: normal;
