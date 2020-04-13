@@ -8,7 +8,7 @@ import emoji from '../../../assets/image/hero_emoji_01.svg';
 const Hero01 = () => {
     return (
         <div className={style.wrapper}>
-            <Navbar fixed="top" />
+            <Navbar fixed="top" iconPosition="left" />
             <div className={style.inner}>
                 <div className={style.col} style={{marginTop: -13}}>
                     <h3 className={style.subTitle}>Short headline</h3>

@@ -14,11 +14,45 @@ const Navbar = (props) => {
         fixedBottom: props.fixed === 'bottom'
     });
 
+    let leftColumnClassName = cx({
+        halfWidth: props.brandPosition === 'center',
+        flexCenter: true
+    });
+
+    let centerColumnClassName = cx({
+
+    });
+
+    let rightColumnClassName = cx({
+        halfWidth: props.brandPosition === 'center',
+        flexCenter: true
+    });
+
     return (
         <div className={className}>
-            <img src={navbarIcon} alt=""/>
-            <div className={style.flexCenter}>
-                <MenuList />
+            <div className={leftColumnClassName}>
+                { (!props.brandPosition || props.brandPosition === 'left') &&
+                    <img src={navbarIcon} alt=""/>
+                }
+                {props.menuPosition === 'left' &&
+                    <MenuList />
+                }
+                {props.iconPosition === 'left' &&
+                    <IconList />
+                }
+            </div>
+            <div className={centerColumnClassName}>
+                {props.brandPosition === 'center' &&
+                    <img src={navbarIcon} alt=""/>
+                }
+                {props.menuPosition === 'center' &&
+                    <MenuList />
+                }
+            </div>
+            <div className={rightColumnClassName}>
+                { (!props.menuPosition || props.menuPosition === 'right') &&
+                    <MenuList />
+                }
                 <IconList />
             </div>
         </div>
