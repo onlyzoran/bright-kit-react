@@ -1,0 +1,24 @@
+.navbar {
+    height: 96px;
+    width: 100%;
+    padding: 0 125px 0 165px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.fixedTop {
+    position: fixed;
+}
+
+.fixedBottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+}

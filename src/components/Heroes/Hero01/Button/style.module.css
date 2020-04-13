@@ -1,15 +1,41 @@
-.textColorPrimary {
+.btn {
+    width: 200px;
+    height: 80px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.85px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    margin-right: 48px;
+    margin-bottom: 25px;
+}
+
+.btnPrimary {
+    box-sizing: border-box;
+    border: 2px solid #FF7171;
     color: #FF7171;
+    transition: 0.5s;
 }
 
-.textColorLight {
-    color: #FFFFFF;
+.btnPrimary:hover {
+    background: #FF7171;
+    color: #fff;
 }
 
-.borderColorPrimary {
-    border-color: #FF7171;
-}
-
-.fillColorBlack {
+.btnFillBlack {
     background: #3D3D3D;
+    box-sizing: border-box;
+    border: 2px solid #3D3D3D;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.btnFillBlack:hover {
+    background: #fff;
+    color: #3D3D3D;
 }

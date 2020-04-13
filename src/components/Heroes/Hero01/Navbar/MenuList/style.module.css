@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 36px;
+    min-width: 464px;
+    padding: 0;
+}
+
+.item {
+    list-style-type: none;
+}
+
+.link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+    letter-spacing: -0.18px;
+    color: #3D3D3D;
+    text-decoration: none;
+}

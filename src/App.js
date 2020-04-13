@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
-import logo from './assets/images/logo.svg';
+import logo from './assets/image/logo.svg';
 import './App.css';
 import Hero01 from './components/Heroes/Hero01';
 

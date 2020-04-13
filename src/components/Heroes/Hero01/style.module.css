@@ -1,3 +1,75 @@
-.heroWrapper {
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+.inner {
+    display: flex;
+    align-items: center;
+    padding-left: 165px;
+    flex-grow: 1;
+}
+
+@media (max-height: 1023px) {
+    .inner {
+        margin-top: 96px;
+    }
+}
+
+.col {
+    max-width: 613px;
+    margin-right: 35px;
+}
+
+.title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 81px;
+    letter-spacing: -1.78px;
+    color: #3D3D3D;
+    margin: 0 0 24px;
+}
+
+.subTitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -0.64px;
+    color: #3D3D3D;
+    margin: 0 0 22px;
+}
+
+.text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -0.47px;
+    color: #3D3D3D;
+    margin: 0 0 24px;
+    max-width: 564px;
+}
+
+.small {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.18px;
+    color: #3D3D3D;
+}
+
+.flex {
+    display: flex;
+}
+
+.emoji {
+    margin-right: 4px;
 }
